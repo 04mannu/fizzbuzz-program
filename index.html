@@ -1,0 +1,23 @@
+
+<script>
+    let fizbuz = [];
+    let i = 1;
+    function fizzoo(){
+    while(i<=100){
+        if((i%3)==0  && (i%5)==0){
+            fizbuz.push("fizzbuzz");
+
+
+        }else if((i%3)==0){
+            fizbuz.push("fizz");
+        }else if((i%5)==0){
+            fizbuz.push("buzz");
+        }else{
+            fizbuz.push(i);
+        }
+        i++;
+    }
+    console.log(fizbuz);
+}
+fizzoo();
+</script>
